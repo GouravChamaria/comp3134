@@ -1,0 +1,19 @@
+The server port is a logical construct used to identify specific services or processes running on a computer within a network. It allows multiple services to operate simultaneously on a single computer by assigning each service a unique port number. When a client wants to communicate with a specific service on a server, it specifies the destination port number along with the server's IP address in the data packet.
+
+Server Port Range: The range of port numbers typically used for server ports is 0 to 65535. However, ports below 1024 are considered well-known ports and are reserved for specific services, while ports above 1024 are available for general use.
+
+Number of Bits: The number 65535 represents a 16-bit unsigned integer, as it can be expressed using 16 bits.
+
+Common Server Ports:
+
+Port 21: FTP (File Transfer Protocol)
+Port 22: SSH (Secure Shell)
+Port 25: SMTP (Simple Mail Transfer Protocol)
+Port 80: HTTP (Hypertext Transfer Protocol)
+Port 110: POP3 (Post Office Protocol version 3)
+Port 143: IMAP (Internet Message Access Protocol)
+Port 443: HTTPS (Hypertext Transfer Protocol Secure)
+Port 3389: Remote Desktop Protocol (RDP)
+Port 5432: PostgreSQL database system
+Port 3306: MySQL database system
+These ports represent common services and applications that run on servers, and they are assigned standard port numbers to facilitate communication within a network.
